@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+.concept__contents {
+    padding: 0 13.5%;
+}
+
+.contents__bg {
+    padding: 0 2.38%;
+    min-height: 100vh;
+    background-image: url(../images/pc_top_concept.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+
+.article__header {
+    padding: 100px 0 0;
+}
+
+.section__title {
+    text-align: left;
+}
+
+.concept__item {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.concept__txt {
+    font-size: 1.6rem;
+}
+
+.spBr {
+    display: none;
+}
+
+/* concept sp */
+@media screen and (max-width: 768px) {
+    .concept__contents {
+        padding: 0;
+    }
+
+    .contents__bg {
+        width: 100%;
+        background-image: url(../images/sp_top_concept.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        padding: 0 5.3%;
+    }
+
+    .article__header {
+        padding: 80px 0 0;
+    }
+
+    /* .section__title {
+        margin-left: 0;
+    } */
+
+    .concept__item {
+        gap: 80px;
+        padding-bottom: 120px;
+    }
+
+    .spBr {
+        display: block;
+    }
+}
+/* sp 768px */
